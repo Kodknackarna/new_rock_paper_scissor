@@ -2,6 +2,6 @@
 
 int main()
 {
-    std::cout << "Hello World testing testing!\n";
+    std::cout << "Test commit till Zindriana branch\n";
 }
 
