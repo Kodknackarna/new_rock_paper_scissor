@@ -11,7 +11,7 @@ private:
 public:
 	startGame();
 
-	void gameVector(std::vector<Player*>& players, std::vector<hand_shape> hand_shapes);
+	void gameVector(std::vector<Player*>& players, std::vector<hand_shape> hand_shapesVector);
 
 
 };
