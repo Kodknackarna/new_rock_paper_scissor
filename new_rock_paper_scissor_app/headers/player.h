@@ -4,7 +4,11 @@
 class Player {
 private:
     std::string name;
+    int score;
 
 public:
-    std::string getName() const; // Metoddeklaration med returtyp
+    Player(const std::string& playerName);
+    std::string getName() const;
+    int getScore() const;
+    void increaseScore();
 };
