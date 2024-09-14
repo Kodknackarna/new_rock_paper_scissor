@@ -8,7 +8,11 @@ void game::startGame(std::vector<Player*> players, std::vector<hand_shape> hand_
 	}
 
 	for (const hand_shape& : hand_shapeVector) {
-		std::cout << "Hand shape: " << shape.getType() << std::endl;
+		std::cout << "Hand shape: " << shape.getType() << std::endl; 
+	}
+
+	for (const hand_shape* shape : hand_shapeVector) {
+		std::cout << "Hand Shape: " << shape->getType() << std::endl;
 	}
 
 };
